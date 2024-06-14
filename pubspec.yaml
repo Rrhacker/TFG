@@ -1,0 +1,155 @@
+name: intento_tfg_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.0.0
+  url_launcher: ^6.0.12
+  provider: ^6.1.2
+  http: ^1.2.1
+  firebase_core: ^3.0.0
+  cloud_firestore: ^5.0.0
+  firebase_auth: ^5.0.0
+  firebase_analytics: ^11.0.0
+  intl: ^0.19.0
+  flutter_dotenv: ^5.0.2
+  cached_network_image: ^3.2.0
+  firebase_storage: 12.0.0
+  image_picker: 0.8.9  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  # Agrega la sección de assets aquí
+  assets:
+    - images/logo_insta.png
+    - images/logo_app.png
+    - images/logo_twitter.png
+    - images/logo_tiktok.png
+    - images/logo_usuario.gif
+    - images/nuestra_ia.png
+    - images/fondo_inicio.png
+    - images/fondo_sponsors.png
+    - images/fondo_sponsors.jpeg
+    - images/fondo_sponsors2.jpeg
+    - images/logo_patro1.png
+    - images/logo_patro2.png
+    - images/logo_patro3.png
+    - images/logo_patro4.png
+    - images/logo_patro5.png
+    - images/fondo_footer.png
+    - images/fondo_footer.png
+    - images/fondo_ladrillos.jpg
+    - images/bot_plan.png
+    - images/billetes_pago.jpeg
+    - images/foco_plan.jpeg
+    - images/bot_sabor.png
+    - images/fondo_mezcla.webp
+    - images/afrutada.webp
+    - images/citrica.webp
+    - images/dulce.webp
+    - images/fondo_perfil.webp
+    - images/zomo.png
+    - images/vintage.png
+    - images/trifecta.png
+    - images/titanum.png
+    - images/taboo.png
+    - images/surfari.png
+    - images/streetsmoke.png
+    - images/starbuzz.png
+    - images/starbuzz_serpent.png
+    - images/smyrna.png
+    - images/shisha_kartel.png
+    - images/serbetli.png
+    - images/revoshi.png
+    - images/puer.png
+    - images/privilege.png
+    - images/overdozz.png
+    - images/Nameless.png
+    - images/nakhla.png
+    - images/mr_shisha.png
+    - images/mazaya.png
+    - images/hookain.png
+    - images/holster.png
+    - images/haze.png
+    - images/hater.png
+    - images/fyl.png
+    - images/fumari.png
+    - images/forever_gold.png
+    - images/eternal.png
+    - images/erasmus_hookah.png
+    - images/erasmus_clasic.png
+    - images/element.png
+    - images/dumanji.png
+    - images/dozaj.png
+    - images/7days.png
+    - images/adalya.png
+    - images/afzal_strong.png
+    - images/afzal.png
+    - images/al_fakher.png
+    - images/al_waha.png
+    - images/alchemist_blend.png
+    - images/aloha.png
+    - images/alwazir.png
+    - images/apocalypse.png
+    - images/aqua_mentha.png
+    - images/blue_horse.png
+    - images/cannibal.png
+    - images/chaos.png
+    - images/chronos.png
+    - images/fondo_inicio.png
+    - images/bot_sabor.png
+    - images/fondo_sponsors2.jpeg
+    - images/fondo_footer.png
+    - images/logo_app.png
+    - images/logo_tiktok.png
+    - images/logo_insta.png
+    - images/logo_twitter.png
+    - images/logo_patro1.png
+    - images/logo_patro2.png
+    - images/logo_patro3.png
+    - images/logo_patro4.png
+    - images/logo_patro5.png
+    - images/backgroundN.jpg
+    - images/Cazoleta_Alpaca_Rook.jpg
+    - images/Cazoleta_El_Nefes_Tradi.jpg
+    - images/Cazoleta_Harmony_Bowls.jpg
+    - images/Cazoleta_HookahJohn_Ferris.jpg
+    - images/Cazoleta_KS_Appo.jpg
+    - images/Cazoleta_Oblako_Phunnel.jpg
+    - images/GC_Kaloud.jpg
+    - images/GC_Provost.jpg
+    - images/GC_Rejilla.jpg
+    - images/Tipos_de_Cazoletas.jpg
+    - images/background_fuego.jpg
+    - images/backgroundN.jpg
+    - images/historia.jpg
+    - images/partes_cachimba.jpg
+    - images/background_fuego.jpg
+    - images/background1.jpg
+    - images/musthave.png
+    - images/dozaj_black.png
+    - images/darkside.png
+    - images/adalya_black.png
+  fonts:
+    - family: PoetsenOne
+      fonts:
+        - asset: fonts/PoetsenOne-Regular.ttf

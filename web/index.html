@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    Si estás sirviendo tu aplicación web en una ruta que no sea la raíz, cambia el
+    valor de href a continuación para reflejar la ruta base desde la que estás sirviendo.
+
+    La ruta proporcionada a continuación debe comenzar y terminar con una barra "/" para que
+    funcione correctamente.
+
+    Para más detalles:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    Este es un marcador de posición para href base que será reemplazado por el valor de
+    el argumento `--base-href` proporcionado a `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- Meta etiquetas e iconos para iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="intento_tfg_1">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>intento_tfg_1</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // El valor a continuación es inyectado por flutter build, no lo toques.
+    const serviceWorkerVersion = null;
+  </script>
+  <!-- Este script agrega el código de inicialización de Flutter -->
+  <script src="flutter.js" defer></script>
+
+  <!-- Agrega los scripts de Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+
+  <script>
+    // Configuración de Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyBbLq_8mD5f0PsW2uqgQAwQI2jJxKaTaZE",
+      authDomain: "mixshishaipro-2190c.firebaseapp.com",
+      projectId: "mixshishaipro-2190c",
+      storageBucket: "mixshishaipro-2190c.appspot.com",
+      messagingSenderId: "149429625982",
+      appId: "1:149429625982:web:af756e50adff7ecf1e642f",
+      measurementId: "G-Y3Z4SHVB5M"
+    };
+
+    // Inicializar Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const analytics = firebase.analytics(app);
+  </script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Descargar main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

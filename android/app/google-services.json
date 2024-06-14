@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "149429625982",
+    "project_id": "mixshishaipro-2190c",
+    "storage_bucket": "mixshishaipro-2190c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149429625982:android:2df21da7a78201e51e642f",
+        "android_client_info": {
+          "package_name": "com.example.intento_tfg_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Sclmg-qfMwU3MMNKclXixDh5Keagmws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
